@@ -45,54 +45,89 @@
             <h2 class="mt-4">Hacktiv8 - Web Development Program</h2>
             <div class="row">
                 <div class="col-3">
-                    <img class="sertifikat" src="assets/img/sertifikatAsync.png" alt="">
+                    <img class="sertifikat" src="assets/img/sertifikatAsync.png" alt="" onclick="openModal(this)" data-aos="fade-up">
                 </div>
                 <div class="col-3">
-                    <img class="sertifikat" src="assets/img/sertifikatAlgoritma.png" alt="">
+                    <img class="sertifikat" src="assets/img/sertifikatAlgoritma.png" alt="" onclick="openModal(this)" data-aos="fade-up" data-aos-delay="150">
                 </div>
                 <div class="col-3">
-                    <img class="sertifikat" src="assets/img/sertifikatDOM.png" alt="">
+                    <img class="sertifikat" src="assets/img/sertifikatDOM.png" alt="" onclick="openModal(this)" data-aos="fade-up" data-aos-delay="300">
                 </div>
                 <div class="col-3">
-                    <img class="sertifikat" src="assets/img/sertifikatCSS.png" alt="">
+                    <img class="sertifikat" src="assets/img/sertifikatCSS.png" alt="" onclick="openModal(this)" data-aos="fade-up" data-aos-delay="450">
                 </div>
             </div>
             <div>
                 <h2 class="mt-4">Fotografi</h2>
                 <div class="row">
                     <div class="col-3">
-                        <img class="sertifikat" src="assets/img/sertifikatFoto1.png" alt="">
+                        <img class="sertifikat" src="assets/img/sertifikatFoto1.png" alt="" onclick="openModal(this)" data-aos="fade-up" data-aos-delay="600">
                     </div>
                     <div class="col-3">
-                        <img class="sertifikat" src="assets/img/Sertifikat Fotografi PCOH-1.jpg" alt="">
+                        <img class="sertifikat" src="assets/img/Sertifikat Fotografi PCOH-1.jpg" alt="" onclick="openModal(this)" data-aos="fade-up" data-aos-delay="750">
                     </div>
                     <div class="col-3">
-                        <img class="sertifikat" src="assets/img/sertifikatFotoFitas-1.jpg" alt="">
+                        <img class="sertifikat" src="assets/img/sertifikatFotoFitas-1.jpg" alt="" onclick="openModal(this)" data-aos="fade-up" data-aos-delay="900">
                     </div>
                     <div class="col-3">
-                        <img class="sertifikat" src="assets/img/SertifikatFotoMifa-1.jpg" alt="">
+                        <img class="sertifikat" src="assets/img/SertifikatFotoMifa-1.jpg" alt="" onclick="openModal(this)" data-aos="fade-up" data-aos-delay="1050">
                     </div>
                 </div>
             </div>
+            <div>
+                <h2 class="mt-4">Videografi</h2>
+                <div class="row">
+                    <div class="col-3">
+                        <img class="sertifikat" src="assets/img/sertifikatPahamfilm.png" alt="" onclick="openModal(this)"  data-aos="fade-up">
+                    </div>
+            </div>
+            <div>
+                <h2 class="mt-4">Relawan dan Donasi</h2>
+                <div class="row">
+                    <div class="col-3">
+                        <img class="sertifikat" src="assets/img/sertifikatIDE.png" alt="" onclick="openModal(this)" data-aos="fade-up">
+                    </div>
+                    <div class="col-3">
+                        <img class="sertifikat" src="assets/img/sertifikat peserta IT MENGABDI.png" alt="" onclick="openModal(this)" data-aos="fade-up" data-aos-delay="150">
+                    </div>
+            </div>
         </div>
-        <div>
-            <h2 class="mt-4">Relawan dan Donasi</h2>
-            <div class="row">
-                <div class="col-3">
-                    <img class="sertifikat" src="assets/img/sertifikatIDE.png" alt="">
-                </div>
-                <div class="col-3">
-                    <img class="sertifikat" src="assets/img/sertifikat peserta IT MENGABDI.png" alt="">
-                </div>
+
+        <!-- modal -->
+        <div id="myModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img src="path_to_your_image.jpg" id="modalImage" alt="Sertifikat" class="modal-content">
+          </div>
         </div>
+    </div>
     </div>
 
-    </div>
-   
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
 </body>
+<footer class="mt-5" style="background-color: rgb(32, 32, 32); height: 270px;">
+    <div>
+        <div class="container">
+            <div>
+                <div>
+                    <h2 class="pt-5">Hubungi Saya</h1>
+                    <p>Untuk pertanyaan bisnis, kirimkan Email ke <a class="text-white" href="mailto: mghaficky.r@gmail.com">mghaficky.r@gmail.com</a></p>
+                    <div  class="mt-2 mb-2">
+                        <div>
+                            <a href="https://instagram.com/ghafickyrenku?igshid=MmIzYWVlNDQ5Yg==" target="_blank"> <img src="assets/img/instagram.png" style="width: 30px;" alt=""></a>
+                            <a href="https://www.tiktok.com/@explorinary?_t=8d4lnsnkaG2&_r=1" target="_blank"> <img src="assets/img/tiktok.png" style="width: 30px; margin-left: 15px;" alt=""></a>
+                            <a href="https://www.linkedin.com/in/ghaficky-renku-a3a19b253" target="_blank"> <img src="assets/img/linkedin.png" style="width: 30px; margin-left: 15px;" alt=""></a>
+                            <p class="mt-5">© 2023 Ghaficky. All Rights Reserved.</p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div> 
+</footer>
+
+<script src="assets/js/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </html>
