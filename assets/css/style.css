@@ -62,5 +62,12 @@
   @media (max-width: 767.98px) {
     .tertarik {
       background-color: #3F3F3F;
+      display: none;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .banner {
+      display: none;
     }
   }
